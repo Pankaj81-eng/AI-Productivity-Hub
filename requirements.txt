@@ -1,0 +1,7 @@
+streamlit
+openai>=1.0.0
+azure-ai-formrecognizer
+python-dotenv
+requests
+python-docx
+PyPDF2
