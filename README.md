@@ -1,7 +1,7 @@
-# AI Productivity Hub
 
-This project is a document summarizer using Azure OpenAI, built with Python and Streamlit.  
-It supports `.txt`, `.pdf`, and `.docx` files.
+# Document Summarizer
+
+This project is a Document Summarizer built with Python and Streamlit, powered by Azure OpenAI. It allows you to upload `.txt`, `.pdf`, and `.docx` files and generates concise summaries using advanced AI models.
 
 ## Setup Instructions
 
@@ -9,7 +9,7 @@ It supports `.txt`, `.pdf`, and `.docx` files.
 
 ```sh
 git clone <your-repo-url>
-cd AI-Productivity-Hub
+cd Document-Summarizer
 ```
 
 ### 2. Create and activate a virtual environment
@@ -56,4 +56,4 @@ streamlit run src/app.py
 ## Notes
 
 - Make sure to set up your `.env` file with your Azure OpenAI credentials.
-- If you encounter SSL or connection errors, check your proxy/firewall settings and use the trusted host options
+- If you encounter SSL or connection errors, check your proxy/firewall settings and use the trusted host options as shown above.
